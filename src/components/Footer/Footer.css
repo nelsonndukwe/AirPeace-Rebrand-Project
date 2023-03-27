@@ -1,0 +1,6 @@
+.footer{
+    height: 20rem;
+    background: var(--blue-color);
+    margin-block-start: 4rem;
+    padding-top: 2rem;
+}

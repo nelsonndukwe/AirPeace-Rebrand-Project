@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=League+Spartan:wght@400;500&family=Montserrat:wght@400;500&family=Rubik:wght@400;500;600;700&family=Sevillana&family=Zen+Dots&display=swap');
+
+
+.nav__margin {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.courosel__container{
+    width: 100%;
+}
+
+.banner__images {
+    width: 100%;
+    height: auto;
+}
+ 
+
+/* BOOKING CSS STYLING */
+
+.booking__conatiner {
+    margin: 2rem 5rem;
+    box-shadow: var(--shadow);
+    height: 15rem;
+    border-radius: var(--border-radius);
+    /* padding: 0 3rem 2rem 3rem ; */
+    margin-block-start: 4rem;
+
+}
+
+.booking__header ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--blue-color);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.booking__header ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    font-family: "kanit";
+    font-size: var(--h3-font-size);
+    font-weight: 400;
+
+}
+
+.booking__header ul li span {
+    font-size: var(--h3-font-size);
+    color: white;
+}
+
+.trip__type {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "kanit";
+    font-weight: 600;
+    color: var(--blue-color);
+    padding-left: 4rem;
+    cursor: pointer;
+}
+
+.flight__details {
+    cursor: pointer;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1rem 4rem;
+    position: relative;
+}
+
+.flight__details input {
+    padding: 1rem;
+    border: 1px solid var(--blue-color);
+    border-radius: 5px;
+}
+
+.range__picker {
+    padding: 1rem;
+    border: 1px solid var(--blue-color);
+    border-radius: 5px;
+}
+
+.passenger__info {
+    padding: 1rem;
+    border: 1px solid var(--blue-color);
+    border-radius: 5px;
+}
+
+
+.flight-btn {
+    padding: 1rem;
+    border: 1px solid var(--blue-color);
+    border-radius: 5px;
+}
+
+.flight-btn:active {
+    transform: scale(0.95);
+}
+
+.swap {
+    position: absolute;
+    top: 2.5rem;
+    left: 18.8rem;
+    font-size: 1rem;
+    color: var(--red-color);
+}
+
+.swap:active {
+    transform: rotate(360deg);
+    transition: var(--transition);
+}
+
+.passenger__count {
+    position: absolute;
+    bottom: -16rem;
+    display: flex;
+    gap: 3rem;
+    height: fit-content;
+    width: 50%;
+    margin: 0 30rem;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    z-index: 30;
+    background: var(--blue-color);
+
+}
+
+.passenger-h3-p {
+    color: var(--white-color);
+}
+
+.void {
+    position: absolute;
+    display: flex;
+    gap: 3rem;
+    height: 100%;
+    width: 50%;
+    margin: 0 30rem;
+    padding: 1rem;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    z-index: 30;
+    display: none;
+    visibility: hidden;
+}
+
+.count__section h3 {
+    color: var(--white-color);
+    font-size: 0.5;
+    font-weight: 300;
+    font-family: "spartan";
+}
+
+
+
+.passengers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+
+.count__section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.economy__buiness {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 414px) {
+
+    .booking__conatiner {
+        display: none;
+
+    }
+
+    .flight__details {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/* PLANNING STYLES */
+
+.container__body {
+    display: grid;
+    grid-template-columns: 6fr 3fr 3fr;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+
+}
+
+.animals {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1 1 70%;
+
+}
+
+.plannnin__images {
+    height: auto;
+    border-radius: 10px;
+}
+
+.plane14 {
+    margin-top: -1rem;
+}
+
+.plannnin__images:hover {
+    transform: scale(1.01);
+    transition: var(--transition);
+}
+
+.box-1 {
+    height: 400px;
+    width: 100%;
+}
+
+.box-1 h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    max-width: 90%;
+    height: 10rem;
+    padding: 0 2rem;
+
+}
+
+.planning__container {
+    margin-block-start: 4rem;
+}
+
+.planning__container h3 {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: var(--red-color);
+}
+
+.planning__container p {
+    color: gray;
+    font-weight: 400;
+    text-align: left;
+    font-size: 1rem;
+
+}
+
+.think-fly {
+    color: var(--red-color);
+    font-size: 1.8rem;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 414px) {
+    .container__body {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .planning__container {
+        margin: 0 0.5rem;
+        padding: 0;
+    }
+
+    .think-fly {
+        margin: -2.5rem 0;
+        text-align: left;
+        direction: rtl;
+
+    }
+}
+
+
+/* DESTINATION STYLES */
+
+.destination__container {
+    margin-block-start: 4rem;
+}
+
+.destination__container h3 {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--red-color);
+}
+
+.top__destinations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card__conatiner {
+    border-radius: 10px;
+    position: relative;
+    align-items: center;
+}
+
+.card__img {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.destination__Imag {
+    width: 100%;
+
+}
+
+.destination__Imag:hover {
+    transform: scale(1.01);
+    transition: var(--transition);
+
+}
+
+.dynamiccard div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: var(--blue-color);
+}
+
+
+.dynamiccard p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+
+
+.dep h4 {
+    color: var(--white-color);
+}
+
+
+
+.city {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--red-color) !important;
+    padding: 0 2rem;
+    margin-top: 0;
+    background-color: var(--blue-color);
+
+}
+
+.dep {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 1rem;
+    margin-top: -1rem;
+}
+
+.eco {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--red-color);
+    cursor: pointer;
+
+}
+
+.explore h4 {
+    padding: 0.85rem;
+    background: var(--white-color);
+    border-radius: 10px;
+    border: 1px solid var(--blue-color);
+
+}
+
+.explore h4:hover {
+    background: var(--blue-color);
+    border: 1px solid var(--red-color);
+    transition: var(--transition);
+    color: var(--white-color);
+}
+
+.explore h4:active {
+    transform: scale(0.95);
+    transition: var(--transition);
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .top__destinations {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0;
+
+    }
+
+    .destination__container {
+        margin: 0 0.5rem;
+        padding: 0;
+
+    }
+
+}
+
+/* PEACEADVANTAGE CLUBER SECTION */
+
+.peace__advnatge-banner{
+    margin-block-start: 4rem;
+
+}
+.peace__advnatge-banner h2 {
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--red-color);
+}
+
+.peace__banner img {
+    width: 65%;
+    height: auto;
+}
+
+.peace__banner {
+    display: flex;
+    flex: 1;
+    border-radius: 10px;
+    padding: 1rem;
+    align-items: center;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+
+}
+
+.peace__banner p {
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 60%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: gray;
+
+}
+
+
+
+@media screen and (max-width:414px) {
+    .peace__advnatge-banner {
+        margin: 0 0.5rem;
+        padding: 0;
+    }
+
+    .peace__banner {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        flex-wrap: nowrap;
+        width: 100%;
+
+    }
+
+    .peace__banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .peace__banner p {
+        max-width: max-content;
+        text-align: start;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+/* CONTACT */
+
+.contact {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    margin-block-start: 4rem;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.contact__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.contact__form-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1.875rem;
+    column-gap: 1rem;
+
+
+}
+
+.btn--2 {
+    margin-top: 1.875rem;
+}
+
+.contact__form-div {
+    margin-top: 1.875rem;
+    position: relative;
+    height: 3.5rem;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: var(--blue-color);
+    width: 100%;
+    padding: 1rem;
+    background: transparent;
+    resize: none;
+    border: 1px solid var(--blue-color);
+}
+
+
+
+
+.conatct__form-input {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: var(--shadow);
+    background: var(--conatiner-color);
+    color: var(--text-color);
+    border: 1px solid var(--title-color);
+    outline: none;
+    border-radius: 10px;
+    padding: 0.685rem 1.875rem;
+    z-index: 5;
+
+
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 1.875rem;
+}
+
+.contact__title {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-bold);
+}
+
+.contact__p {
+    font-size: var(--h3-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-semibold);
+
+}
+
+.contact__form-area textarea {
+    resize: none;
+
+}
+
+.contact__form-area {
+    height: 10.25rem;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 1.875rem;
+        margin: 0 0.5rem;
+        padding: 0;
+        margin-block-start: 4rem;
+
+
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+    .service__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+.contact__form {
+    position: relative;
+}
+
+.error__message {
+    position: absolute;
+    padding: 10px;
+    display: inline-block;
+    right: 0;
+    bottom: 2px;
+    color: var(--first-color);
+    border-radius: var(--border-radius);
+    animation: errorslide 5s;
+}
+
+.error-message {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+input::placeholder {
+    color: var(--title-color);
+
+}
+
+

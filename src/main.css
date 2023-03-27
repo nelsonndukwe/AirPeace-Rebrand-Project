@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=League+Spartan:wght@400;500&family=Montserrat:wght@400;500&family=Rubik:wght@400;500;600;700&family=Sevillana&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kanit&family=League+Spartan:wght@400;500&family=Montserrat:wght@400;500&family=Rubik:wght@400;500;600;700&family=Sevillana&family=Zen+Dots&display=swap');
+
+
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red-color: #C71B1B;
+  --blue-color: #382A61;
+  --white-color: #ffff;
+  --black-color: black;
+
+
+
+  --body-font: 'Spartan', "Montserrat";
+  --h1-font-size: 2.5rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+
+
+  /* font font-weight */
+
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* box shadow */
+
+  --shadow: 0px 5px 20px 0px rgba(69 67 96 / 10%);
+
+  --border-radius: 20px;
+  --transition: 0.3s ease-in-out;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font);
+}
+
+body {
+  background: var(--body-color);
+  line-height: 1.7;
+  color: var(--text-color);
+  /* background: #282A3A; */
+}
+
+h1,
+h2,
+h3 {
+  color: var(--black-color);
+  font-weight: var(--font-semibold);
+  line-height: 1.2;
+  font-family: var(--body-font);
+}
+
+ul {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+
+}
+
+.container {
+  padding: 0 5rem;
+  
+}
+
+section {
+  padding: 4rem 0 2rem;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  line-height: 1;
+  border-radius: 1.875rem;
+  box-shadow: 0 0 1px rgba(0 0 0 / 0%);
+  border: 1px solid transparent;
+  color: var(--blue-color);
+  display: inline-block;
+  background-color: transparent;
+  font-weight: var(--font-bold);
+  border: 1px solid var(--red-color);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--red-color);
+}
+
+.icon{
+  font-size:var(--h2-font-size) ;
+  cursor: pointer;
+}
+
+.icon:hover{
+  color:var(--red-color);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.none {
+  display: none;
+}
+
+.nav__margin{
+  margin: 0;
+  padding: 0;
+}
